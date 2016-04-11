@@ -12,39 +12,39 @@ package sample.design.single.responsibility.good;
 public class ReadingMaterialDAO {
 
 	/**
-	 * 1. Get DB connection and 2. Create transaction 3. Save the book 4. Commit
+	 * 1. Get DB connection and 2. Create transaction 3. Save the RM 4. Commit
 	 * transaction
 	 */
-	public void saveBook(ReadingMaterial bookNew) {
+	public void saveRM(ReadingMaterial readingMaterial) {
 
-		System.out.println("[SAVE:RM " + bookNew.getId() + "]");
+		System.out.println("[SAVE:RM " + readingMaterial.getId() + "]");
 	}
 
 	/**
-	 * 1. Get DB connection and 2. Create transaction 3. Update the book 4.
+	 * 1. Get DB connection and 2. Create transaction 3. Update the RM 4.
 	 * Commit transaction
 	 */
-	public void updateBook(ReadingMaterial bookNew) {
+	public void updateRM(ReadingMaterial readingMaterial) {
 
-		System.out.println("[UPDATE:RM " + bookNew.getId() + "]");
+		System.out.println("[UPDATE:RM " + readingMaterial.getId() + "]");
 	}
 
 	/**
-	 * 1. Get DB connection and 2. read the book
+	 * 1. Get DB connection and 2. read the RM
 	 * 
 	 */
-	public void readBook(ReadingMaterial bookNew) {
+	public void readRM(ReadingMaterial readingMaterial) {
 
-		System.out.println("[READ:RM " + bookNew.getId() + "]");
+		System.out.println("[READ:RM " + readingMaterial.getId() + "]");
 	}
 
 	/**
-	 * 1. Get DB connection and 2. Create transaction 3. Delete the book 4.
+	 * 1. Get DB connection and 2. Create transaction 3. Delete the RM 4.
 	 * Commit transaction
 	 */
-	public void deleteBook(ReadingMaterial bookNew) {
+	public void deleteRM(ReadingMaterial readingMaterial) {
 
-		System.out.println("[DELETE:RM " + bookNew.getId() + "]");
+		System.out.println("[DELETE:RM " + readingMaterial.getId() + "]");
 	}
 
 }
