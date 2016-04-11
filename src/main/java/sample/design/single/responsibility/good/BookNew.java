@@ -9,11 +9,13 @@ package sample.design.single.responsibility.good;
  * 
  * @blog https://malalanayake.wordpress.com/
  */
-public class BookNew {
+public class BookNew implements ReadingMaterial {
+
+	private static final String BOOK = "Book";
 	private int bookId;
 	private String name;
 
-	public int getBookId() {
+	public int getId() {
 		return bookId;
 	}
 
@@ -27,6 +29,10 @@ public class BookNew {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getType() {
+		return BOOK;
 	}
 
 }

@@ -9,42 +9,42 @@ package sample.design.single.responsibility.good;
  * 
  * @blog https://malalanayake.wordpress.com/
  */
-public class BookDAO {
+public class ReadingMaterialDAO {
 
 	/**
 	 * 1. Get DB connection and 2. Create transaction 3. Save the book 4. Commit
 	 * transaction
 	 */
-	public void saveBook(BookNew bookNew) {
+	public void saveBook(ReadingMaterial bookNew) {
 
-		System.out.println("[SAVE:BOOK " + bookNew.getBookId() + "]");
+		System.out.println("[SAVE:RM " + bookNew.getId() + "]");
 	}
 
 	/**
 	 * 1. Get DB connection and 2. Create transaction 3. Update the book 4.
 	 * Commit transaction
 	 */
-	public void updateBook(BookNew bookNew) {
+	public void updateBook(ReadingMaterial bookNew) {
 
-		System.out.println("[UPDATE:BOOK " + bookNew.getBookId() + "]");
+		System.out.println("[UPDATE:RM " + bookNew.getId() + "]");
 	}
 
 	/**
 	 * 1. Get DB connection and 2. read the book
 	 * 
 	 */
-	public void readBook(BookNew bookNew) {
+	public void readBook(ReadingMaterial bookNew) {
 
-		System.out.println("[READ:BOOK " + bookNew.getBookId() + "]");
+		System.out.println("[READ:RM " + bookNew.getId() + "]");
 	}
 
 	/**
 	 * 1. Get DB connection and 2. Create transaction 3. Delete the book 4.
 	 * Commit transaction
 	 */
-	public void deleteBook(BookNew bookNew) {
+	public void deleteBook(ReadingMaterial bookNew) {
 
-		System.out.println("[DELETE:BOOK " + bookNew.getBookId() + "]");
+		System.out.println("[DELETE:RM " + bookNew.getId() + "]");
 	}
 
 }
