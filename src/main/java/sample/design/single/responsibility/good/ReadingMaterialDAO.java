@@ -21,8 +21,8 @@ public class ReadingMaterialDAO {
 	}
 
 	/**
-	 * 1. Get DB connection and 2. Create transaction 3. Update the RM 4.
-	 * Commit transaction
+	 * 1. Get DB connection and 2. Create transaction 3. Update the RM 4. Commit
+	 * transaction
 	 */
 	public void updateRM(ReadingMaterial readingMaterial) {
 
@@ -39,8 +39,8 @@ public class ReadingMaterialDAO {
 	}
 
 	/**
-	 * 1. Get DB connection and 2. Create transaction 3. Delete the RM 4.
-	 * Commit transaction
+	 * 1. Get DB connection and 2. Create transaction 3. Delete the RM 4. Commit
+	 * transaction
 	 */
 	public void deleteRM(ReadingMaterial readingMaterial) {
 
