@@ -39,8 +39,8 @@ public class Book {
 	}
 
 	/**
-	 * 1. Get DB connection and 2. Create transaction 3. Update the book 4.
-	 * Commit transaction
+	 * 1. Get DB connection and 2. Create transaction 3. Update the book 4. Commit
+	 * transaction
 	 */
 	public void updateBook() {
 
@@ -57,8 +57,8 @@ public class Book {
 	}
 
 	/**
-	 * 1. Get DB connection and 2. Create transaction 3. Delete the book 4.
-	 * Commit transaction
+	 * 1. Get DB connection and 2. Create transaction 3. Delete the book 4. Commit
+	 * transaction
 	 */
 	public void deleteBook() {
 

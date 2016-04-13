@@ -10,6 +10,6 @@ package sample.design.open.close.good;
  * @blog https://malalanayake.wordpress.com/
  */
 public interface ShapeNew {
-	
+
 	public void draw();
 }
