@@ -11,12 +11,12 @@ package sample.design.Interface.segregation.good;
  */
 public class RobotNew implements Workable {
 
- public void startWork() {
-	System.out.println("[START:Working Robot]");
- }
+		public void startWork() {
+				System.out.println("[START:Working Robot]");
+		}
 
- public void stopWork() {
-	System.out.println("[STOP:Working Robot]");
- }
+		public void stopWork() {
+				System.out.println("[STOP:Working Robot]");
+		}
 
 }

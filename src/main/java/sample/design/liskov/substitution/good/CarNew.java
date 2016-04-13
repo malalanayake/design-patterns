@@ -11,18 +11,18 @@ package sample.design.liskov.substitution.good;
  */
 public class CarNew extends VehicleNew {
 
- @Override
- public void setRimSize(float rimSize) {
-	super.setRimSize(rimSize);
- }
+		@Override
+		public void setRimSize(float rimSize) {
+				super.setRimSize(rimSize);
+		}
 
- @Override
- public void setTireSize(float tireSize) {
-	super.setTireSize(tireSize);
- }
+		@Override
+		public void setTireSize(float tireSize) {
+				super.setTireSize(tireSize);
+		}
 
- @Override
- public void initEngine() {
-	System.out.println("[START:Car Engine]");
- }
+		@Override
+		public void initEngine() {
+				System.out.println("[START:Car Engine]");
+		}
 }

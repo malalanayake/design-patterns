@@ -10,5 +10,5 @@ package sample.design.open.close.bad;
  * @blog https://malalanayake.wordpress.com/
  */
 public interface Shape {
- public int getType();
+		public int getType();
 }

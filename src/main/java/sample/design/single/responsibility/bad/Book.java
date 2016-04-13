@@ -10,59 +10,59 @@ package sample.design.single.responsibility.bad;
  * @blog https://malalanayake.wordpress.com/
  */
 public class Book {
- private int bookId;
- private String name;
+		private int bookId;
+		private String name;
 
- public int getBookId() {
-	return bookId;
- }
+		public int getBookId() {
+				return bookId;
+		}
 
- public void setBookId(int bookId) {
-	this.bookId = bookId;
- }
+		public void setBookId(int bookId) {
+				this.bookId = bookId;
+		}
 
- public String getName() {
-	return name;
- }
+		public String getName() {
+				return name;
+		}
 
- public void setName(String name) {
-	this.name = name;
- }
+		public void setName(String name) {
+				this.name = name;
+		}
 
- /**
-  * 1. Get DB connection and 2. Create transaction 3. Save the book 4. Commit
-  * transaction
-  */
- public void saveBook() {
+		/**
+		 * 1. Get DB connection and 2. Create transaction 3. Save the book 4. Commit
+		 * transaction
+		 */
+		public void saveBook() {
 
-	System.out.println("[SAVE:BOOK " + this.bookId + "]");
- }
+				System.out.println("[SAVE:BOOK " + this.bookId + "]");
+		}
 
- /**
-  * 1. Get DB connection and 2. Create transaction 3. Update the book 4. Commit
-  * transaction
-  */
- public void updateBook() {
+		/**
+		 * 1. Get DB connection and 2. Create transaction 3. Update the book 4. Commit
+		 * transaction
+		 */
+		public void updateBook() {
 
-	System.out.println("[UPDATE:BOOK " + this.bookId + "]");
- }
+				System.out.println("[UPDATE:BOOK " + this.bookId + "]");
+		}
 
- /**
-  * 1. Get DB connection and 2. read the book
-  * 
-  */
- public void readBook() {
+		/**
+		 * 1. Get DB connection and 2. read the book
+		 * 
+		 */
+		public void readBook() {
 
-	System.out.println("[READ:BOOK " + this.bookId + "]");
- }
+				System.out.println("[READ:BOOK " + this.bookId + "]");
+		}
 
- /**
-  * 1. Get DB connection and 2. Create transaction 3. Delete the book 4. Commit
-  * transaction
-  */
- public void deleteBook() {
+		/**
+		 * 1. Get DB connection and 2. Create transaction 3. Delete the book 4. Commit
+		 * transaction
+		 */
+		public void deleteBook() {
 
-	System.out.println("[DELETE:BOOK " + this.bookId + "]");
- }
+				System.out.println("[DELETE:BOOK " + this.bookId + "]");
+		}
 
 }

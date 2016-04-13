@@ -10,7 +10,7 @@ package sample.dependency.Inversion.bad;
  * @blog https://malalanayake.wordpress.com/
  */
 public class ServiceProgram {
- public void run() {
-	System.out.println("[RUN:Service]");
- }
+		public void run() {
+				System.out.println("[RUN:Service]");
+		}
 }

@@ -10,8 +10,8 @@ package sample.design.Interface.segregation.good;
  * @blog https://malalanayake.wordpress.com/
  */
 public interface Workable {
- public void startWork();
+		public void startWork();
 
- public void stopWork();
+		public void stopWork();
 
 }

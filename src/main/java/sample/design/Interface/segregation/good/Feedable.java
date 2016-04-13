@@ -10,6 +10,6 @@ package sample.design.Interface.segregation.good;
  * @blog https://malalanayake.wordpress.com/
  */
 public interface Feedable {
- public void eat();
+		public void eat();
 
 }

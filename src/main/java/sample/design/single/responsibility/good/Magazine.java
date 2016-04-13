@@ -11,19 +11,19 @@ package sample.design.single.responsibility.good;
  */
 public class Magazine implements ReadingMaterial {
 
- private static final String MAGAZINE = "Magazine";
- private int magazineId;
+		private static final String MAGAZINE = "Magazine";
+		private int magazineId;
 
- public void setMagazineId(int magazineId) {
-	this.magazineId = magazineId;
- }
+		public void setMagazineId(int magazineId) {
+				this.magazineId = magazineId;
+		}
 
- public int getId() {
-	return magazineId;
- }
+		public int getId() {
+				return magazineId;
+		}
 
- public String getType() {
-	return MAGAZINE;
- }
+		public String getType() {
+				return MAGAZINE;
+		}
 
 }

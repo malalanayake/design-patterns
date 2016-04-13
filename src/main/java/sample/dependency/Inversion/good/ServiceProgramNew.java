@@ -10,7 +10,7 @@ package sample.dependency.Inversion.good;
  * @blog https://malalanayake.wordpress.com/
  */
 public class ServiceProgramNew implements Runner {
- public void run() {
-	System.out.println("[RUN:Service]");
- }
+		public void run() {
+				System.out.println("[RUN:Service]");
+		}
 }

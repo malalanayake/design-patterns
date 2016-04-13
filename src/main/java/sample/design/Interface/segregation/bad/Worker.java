@@ -10,9 +10,9 @@ package sample.design.Interface.segregation.bad;
  * @blog https://malalanayake.wordpress.com/
  */
 public interface Worker {
- public void startWork();
+		public void startWork();
 
- public void stopWork();
+		public void stopWork();
 
- public void eat();
+		public void eat();
 }

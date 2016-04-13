@@ -11,28 +11,28 @@ package sample.design.single.responsibility.good;
  */
 public class BookNew implements ReadingMaterial {
 
- private static final String BOOK = "Book";
- private int bookId;
- private String name;
+		private static final String BOOK = "Book";
+		private int bookId;
+		private String name;
 
- public int getId() {
-	return bookId;
- }
+		public int getId() {
+				return bookId;
+		}
 
- public void setBookId(int bookId) {
-	this.bookId = bookId;
- }
+		public void setBookId(int bookId) {
+				this.bookId = bookId;
+		}
 
- public String getName() {
-	return name;
- }
+		public String getName() {
+				return name;
+		}
 
- public void setName(String name) {
-	this.name = name;
- }
+		public void setName(String name) {
+				this.name = name;
+		}
 
- public String getType() {
-	return BOOK;
- }
+		public String getType() {
+				return BOOK;
+		}
 
 }

@@ -12,10 +12,10 @@ import java.util.List;
  * @blog https://malalanayake.wordpress.com/
  */
 public class OperatingSystemNew {
- private List<Runner> apps;
+		private List<Runner> apps;
 
- public void start(Runner runner) {
-	apps.add(runner);
-	runner.run();
- }
+		public void start(Runner runner) {
+				apps.add(runner);
+				runner.run();
+		}
 }

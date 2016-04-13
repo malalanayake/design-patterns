@@ -10,7 +10,7 @@ package sample.design.single.responsibility.good;
  * @blog https://malalanayake.wordpress.com/
  */
 public interface ReadingMaterial {
- public int getId();
+		public int getId();
 
- public String getType();
+		public String getType();
 }
