@@ -11,8 +11,8 @@ package sample.design.open.close.bad;
  */
 public class Rectangle implements Shape {
 
-	public int getType() {
-		return 1;
-	}
+ public int getType() {
+	return 1;
+ }
 
 }

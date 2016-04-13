@@ -11,8 +11,8 @@ package sample.design.open.close.bad;
  */
 public class Circle implements Shape {
 
-	public int getType() {
-		return 2;
-	}
+ public int getType() {
+	return 2;
+ }
 
 }

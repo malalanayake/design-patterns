@@ -10,7 +10,7 @@ package sample.dependency.Inversion.good;
  * @blog https://malalanayake.wordpress.com/
  */
 public class ApplicationProgramNew implements Runner {
-	public void run() {
-		System.out.println("[RUN:Application]");
-	}
+ public void run() {
+	System.out.println("[RUN:Application]");
+ }
 }

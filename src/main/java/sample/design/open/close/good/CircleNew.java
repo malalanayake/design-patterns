@@ -11,7 +11,7 @@ package sample.design.open.close.good;
  */
 public class CircleNew implements ShapeNew {
 
-	public void draw() {
-		System.out.println("[PRINT:Circle]");
-	}
+ public void draw() {
+	System.out.println("[PRINT:Circle]");
+ }
 }

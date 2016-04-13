@@ -10,5 +10,5 @@ package sample.dependency.Inversion.good;
  * @blog https://malalanayake.wordpress.com/
  */
 public interface Runner {
-	public void run();
+ public void run();
 }

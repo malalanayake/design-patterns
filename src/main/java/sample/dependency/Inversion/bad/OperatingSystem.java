@@ -10,16 +10,16 @@ package sample.dependency.Inversion.bad;
  * @blog https://malalanayake.wordpress.com/
  */
 public class OperatingSystem {
-	private ApplicationProgram app;
-	private ServiceProgram service;
+ private ApplicationProgram app;
+ private ServiceProgram service;
 
-	public void start(ApplicationProgram app) {
-		this.app = app;
-		app.run();
-	}
+ public void start(ApplicationProgram app) {
+	this.app = app;
+	app.run();
+ }
 
-	public void start(ServiceProgram service) {
-		this.service = service;
-		service.run();
-	}
+ public void start(ServiceProgram service) {
+	this.service = service;
+	service.run();
+ }
 }

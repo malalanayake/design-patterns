@@ -11,30 +11,30 @@ package sample.design.open.close.bad;
  */
 public class GraphicEditor {
 
-	public void drawShape(Shape s) {
-		if (s.getType() == 1)
-			drawRectangle((Rectangle) s);
-		else if (s.getType() == 2)
-			drawCircle((Circle) s);
-	}
+ public void drawShape(Shape s) {
+	if (s.getType() == 1)
+	 drawRectangle((Rectangle) s);
+	else if (s.getType() == 2)
+	 drawCircle((Circle) s);
+ }
 
-	public void drawCircle(Circle s) {
-		System.out.println("[PRINT:Circle]");
-	}
+ public void drawCircle(Circle s) {
+	System.out.println("[PRINT:Circle]");
+ }
 
-	public void drawRectangle(Rectangle r) {
-		System.out.println("[PRINT:Rectangle]");
-	}
+ public void drawRectangle(Rectangle r) {
+	System.out.println("[PRINT:Rectangle]");
+ }
 
-	public static void main(String[] args) {
-		GraphicEditor ge = new GraphicEditor();
-		// Print circle
-		Circle c = new Circle();
-		ge.drawShape(c);
+ public static void main(String[] args) {
+	GraphicEditor ge = new GraphicEditor();
+	// Print circle
+	Circle c = new Circle();
+	ge.drawShape(c);
 
-		// Print Rectangle
-		Rectangle rec = new Rectangle();
-		ge.drawShape(rec);
-	}
+	// Print Rectangle
+	Rectangle rec = new Rectangle();
+	ge.drawShape(rec);
+ }
 
 }
