@@ -11,13 +11,13 @@ package sample.dependency.Inversion.good;
  */
 public class Main {
 
-		public static void main(String[] args) {
-				ApplicationProgramNew app = new ApplicationProgramNew();
-				ServiceProgramNew service = new ServiceProgramNew();
+	public static void main(String[] args) {
+		ApplicationProgramNew app = new ApplicationProgramNew();
+		ServiceProgramNew service = new ServiceProgramNew();
 
-				OperatingSystemNew os = new OperatingSystemNew();
-				os.start(app);
-				os.start(service);
-		}
+		OperatingSystemNew os = new OperatingSystemNew();
+		os.start(app);
+		os.start(service);
+	}
 
 }

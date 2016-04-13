@@ -11,20 +11,20 @@ package sample.design.open.close.good;
  */
 public class GraphicEditorNew {
 
-		public void drawShape(ShapeNew s) {
-				System.out.println("[INIT:Canvas]");
-				s.draw();
-				System.out.println("[RENDER:Canvas]");
-		}
+	public void drawShape(ShapeNew s) {
+		System.out.println("[INIT:Canvas]");
+		s.draw();
+		System.out.println("[RENDER:Canvas]");
+	}
 
-		public static void main(String[] args) {
-				GraphicEditorNew ge = new GraphicEditorNew();
-				// Print circle
-				CircleNew c = new CircleNew();
-				ge.drawShape(c);
+	public static void main(String[] args) {
+		GraphicEditorNew ge = new GraphicEditorNew();
+		// Print circle
+		CircleNew c = new CircleNew();
+		ge.drawShape(c);
 
-				// Print Rectangle
-				RectangleNew rec = new RectangleNew();
-				ge.drawShape(rec);
-		}
+		// Print Rectangle
+		RectangleNew rec = new RectangleNew();
+		ge.drawShape(rec);
+	}
 }

@@ -11,7 +11,7 @@ package sample.design.open.close.good;
  */
 public class RectangleNew implements ShapeNew {
 
-		public void draw() {
-				System.out.println("[PRINT:Rectangle]");
-		}
+	public void draw() {
+		System.out.println("[PRINT:Rectangle]");
+	}
 }

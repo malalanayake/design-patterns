@@ -11,18 +11,18 @@ package sample.design.liskov.substitution.good;
  */
 public class LSPTestNew {
 
-		public static void main(String[] args) {
-				VehicleNew vehicle = new VehicleNew();
-				vehicle.setRimSize(10);
-				vehicle.setTireSize(12);
-				vehicle.initEngine();
-				vehicle.print();
+	public static void main(String[] args) {
+		VehicleNew vehicle = new VehicleNew();
+		vehicle.setRimSize(10);
+		vehicle.setTireSize(12);
+		vehicle.initEngine();
+		vehicle.print();
 
-				VehicleNew car = new CarNew();
-				car.setRimSize(10);
-				car.setTireSize(12);
-				car.initEngine();
-				car.print();
-		}
+		VehicleNew car = new CarNew();
+		car.setRimSize(10);
+		car.setTireSize(12);
+		car.initEngine();
+		car.print();
+	}
 
 }

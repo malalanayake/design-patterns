@@ -11,13 +11,13 @@ package sample.dependency.Inversion.bad;
  */
 public class Main {
 
-		public static void main(String[] args) {
-				ApplicationProgram app = new ApplicationProgram();
-				ServiceProgram service = new ServiceProgram();
+	public static void main(String[] args) {
+		ApplicationProgram app = new ApplicationProgram();
+		ServiceProgram service = new ServiceProgram();
 
-				OperatingSystem os = new OperatingSystem();
-				os.start(app);
-				os.start(service);
-		}
+		OperatingSystem os = new OperatingSystem();
+		os.start(app);
+		os.start(service);
+	}
 
 }

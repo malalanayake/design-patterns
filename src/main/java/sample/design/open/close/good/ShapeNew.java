@@ -11,5 +11,5 @@ package sample.design.open.close.good;
  */
 public interface ShapeNew {
 
-		public void draw();
+	public void draw();
 }
